@@ -1,0 +1,99 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+
+
+body {
+    background: whitesmoke;
+    font-family: "Nunito", sans-serif;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+
+img {
+    height: auto;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+}
+
+.blurb h2 {
+    color:#EA1C2C;
+    font-weight: 100;
+    font-size: 2.5rem;
+    margin-top: 100px;
+}
+
+
+.blurb p {
+    color: #5a0505;
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 2;
+}
+
+.content {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+#mainNavbar .nav-link {
+    color: #5a0505;
+}
+
+#mainNavbar .nav-link:hover {
+    color:#33c7c8;
+}
+
+#mainNavbar .navbar-brand {
+    color:#e60f21;
+    font-size: 1.5rem;
+}
+
+#headingGroup span {
+    color:#33c7c8; 
+}
+
+#headingGroup h1 {
+    font-weight: 100;
+    font-size: 4rem;
+    color: #fa9999;
+}
+
+.navbar.scrolled {
+    background: #e0c4dc;
+    transition: background 0.6s;
+}
+
+
+@media (max-width: 1200px) {
+    #headingGroup h1 {
+        font-weight: 100;
+        font-size: 3rem;
+    } 
+}
+
